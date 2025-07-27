@@ -33,8 +33,8 @@ formElem.addEventListener("submit", (evt) => {
         console.log(formData);
         localStorage.removeItem(localStorageKey);
         formElem.reset();
-        formData.email = '',
-        formData.message = '',
+        formData.email = '';
+        formData.message = '';
     } else {
         alert('Fill please all fields');
     }   
